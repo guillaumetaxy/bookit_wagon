@@ -1,0 +1,136 @@
+<!-- Bookit HomePage -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Title -->
+    <title>Bookit - Tous les services d'un hotel sans y dormir :</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Stylesheet - bookit -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  
+  </head>
+  <body>
+
+<!----------------------NAVBAR ------------------------>
+<nav class="navbar navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="index.html">
+    <img src="images/logo_bookit.png" width="150" height="40" class="d-inline-block align-top" alt="logo bookit">
+  </a>
+
+  <div>
+        <a class="nav-link disabled" href="login.html">Log in</a>
+  </div>
+</nav>
+
+<!---------------------------------------------------------------------------------------------------------------------------------->
+
+
+<h2 class="text-center"> Tous les services d'un hotel sans y dormir :</h2>
+
+
+<div class="container">
+  <form action="searchresults.html">
+  <div class="row text-center"> 
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl p-2">
+      <select name="Ville" id="Ville" class="btn btn-light form-findhotel">
+        <option value="Paris">Paris</option>
+        <option value="Marseille">Marseille</option>
+        <option value="Lyon">Lyon</option>
+        <option value="Toulouse">Toulouse</option>
+        <option value="Nice">Nice</option>
+        <option value="Nice">Orléan</option>
+      </select>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl p-2">
+      <select name="Service" id="Service" class="btn btn-light form-findhotel">
+        <option value="SPA">SPA</option>
+        <option value="Piscine">Piscine</option>
+        <option value="SalleDeSport">Salle de sport</option>
+        <option value="Blanchisserie">Blanchisserie</option>
+        <option value="Bar">Bar</option>
+        <option value="Coworking">Coworking</option>
+      </select>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl p-2">
+      <input id="date" type="date" name="date" class="form-findhotel btn form-findhotel">
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl p-2">
+      <input id="number" type="number" min="1" max="5" class="btn btn-light form-findhotel" value="1" >
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl p-2">
+      <!--<a href="searchresults.html" class="btn btn-light form-findhotel align-middle" id="btn-bookit">Book it</a>-->
+      
+          <input type="submit" value="Book it" class="btn btn-light form-findhotel" id="btn-bookit" />
+      
+     <!-- 
+      <button class="btn btn-light form-findhotel" id="btn-bookit">BOOK IT</button> -->
+    </div>
+
+  </div>
+  </form>
+</div>
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------->
+
+
+<h2 class="text-center">Nos 6 hotels les plus réservés :</h2>
+
+
+
+<div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30421479_10155700262133732_1646939092_n.jpg" class="images-hotels">
+          <p>Hilton - Bordeaux</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30422073_10155700262148732_1751275581_n.jpg" class="images-hotels">
+          <p>Mama Shelter - Paris</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30429239_10155700262123732_147775874_n.jpg" class="images-hotels">
+          <p>Mariott - Londres</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30429960_10155700262143732_349280690_n.jpg" class="images-hotels">
+          <p>Four season- Nice</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30550282_10155700262193732_1306279853_o.jpg" class="images-hotels">
+          <p>Novotel- Orleans</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+          <img src="images/30777036_10155700262118732_951967495_n.jpg" class="images-hotels">
+          <p>Indigo- Toulouse</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script>
+      document.getElementById('date').valueAsDate = new Date();
+    </script>
+
+  </body>
+</html>

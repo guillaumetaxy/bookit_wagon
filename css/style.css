@@ -1,0 +1,69 @@
+.form-findhotel{
+	background-color: #e0e0e0 ;
+	height: 60px ;
+	width:180px ;
+	color: black ;
+	font-family: 'Roboto', sans-serif;
+	border-color: #e0e0e0 ;
+	border-width: 1px ;
+	/*align-items: center ;*/
+	/*display: inline-flex;*/
+}
+
+#id_form-findhotel{
+	align-content: center;
+}
+
+#btn-bookit{
+	border-color: #fa4848 ;
+	border-width: 1px ;
+	background-color: #fa4848;
+	color: white ;
+
+	display: inline-block;
+	vertical-align: middle;
+
+	display:inline-block;
+	vertical-align:middle;
+	align-items: flex-start;
+
+
+
+}
+
+#btn-bookit:hover{
+
+	background-color: white;
+	color:  #fa4848 ;
+
+}
+
+.images-hotels{
+	padding: 20px ;
+	margin: 20px ;
+	max-width: 300px ;
+	height: auto ;
+	border-radius: 12% ;
+	border-width: 30px ;
+	border-color: black ;
+}
+
+.images-hotels:hover{
+	opacity: 0.7 ;
+}
+
+h2{
+	text-align: center;
+	padding: 1em ;
+	padding-left: 2em ;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#login_form{
+
+}
